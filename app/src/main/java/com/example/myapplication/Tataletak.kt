@@ -95,3 +95,12 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                 .background(color = Color.Yellow),
             contentAlignment = Alignment.Center
         ) {
+            Column {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Col1 Row1 Komponen1")
+                    Text(text = "Col1 Row1 Komponen2")
+                    Text(text = "Col1 Row1 Komponen3")
+                }
