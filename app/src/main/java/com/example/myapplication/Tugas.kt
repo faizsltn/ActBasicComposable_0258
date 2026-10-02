@@ -166,3 +166,16 @@ private fun IdentitySection(
         )
     }
 }
+
+/**
+ * Komponen Foto Profil / Gambar Lingkaran Kabah/Mekkah.
+ */
+@Composable
+private fun ProfileImageSection() {
+    Box(
+        contentAlignment = Alignment.Center,
+        modifier = Modifier
+            .size(260.dp)
+            .clip(CircleShape)
+            .border(width = 3.dp, color = Color.White.copy(alpha = 0.8f), shape = CircleShape)
+    ) {
