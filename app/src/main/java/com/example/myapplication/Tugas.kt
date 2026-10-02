@@ -107,3 +107,17 @@ private fun HeaderSection() {
         )
     }
 }
+
+/**
+ * Komponen Logo Kampus UMY.
+ */
+@Composable
+private fun LogoSection() {
+    Image(
+        painter = painterResource(id = R.drawable.logoumy), // Ganti dengan resource logo UMY
+        contentDescription = "Logo Universitas Muhammadiyah Yogyakarta",
+        modifier = Modifier
+            .size(140.dp),
+        contentScale = ContentScale.Fit
+    )
+}
