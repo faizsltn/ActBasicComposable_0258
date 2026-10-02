@@ -153,3 +153,16 @@ private fun IdentitySection(
             color = Color(0xFF0033CC), // Warna Biru
             textAlign = TextAlign.Center
         )
+
+        Spacer(modifier = Modifier.height(6.dp))
+
+        // Value NIM Mahasiswa
+        Text(
+            text = nim,
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Black,
+            color = Color.Black,
+            textAlign = TextAlign.Center
+        )
+    }
+}
