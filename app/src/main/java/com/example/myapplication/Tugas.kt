@@ -55,3 +55,27 @@ fun HalamanTugas(
                 .padding(horizontal = 24.dp)
                 .padding(top = 48.dp, bottom = 24.dp)
         ) {
+            // Header Section: Judul & Subjudul
+            HeaderSection()
+
+            Spacer(modifier = Modifier.height(32.dp))
+
+            // Logo Section: Logo Kampus/Organisasi
+            LogoSection()
+
+            Spacer(modifier = Modifier.height(28.dp))
+
+            // Identity Section: Detail Identitas Mahasiswa
+            IdentitySection(
+                label = "Nama",
+                nama = "Faiz Sulthon Daud Muhammad",
+                nim = "20240140258"
+            )
+
+            Spacer(modifier = Modifier.height(28.dp))
+
+            // Profile Image Section: Gambar Lingkaran di Bagian Bawah
+            ProfileImageSection()
+        }
+    }
+}
