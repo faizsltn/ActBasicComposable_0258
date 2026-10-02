@@ -46,3 +46,12 @@ fun HalamanTugas(
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
+
+        // 2. Container Konten Utama (Posisi Tengah secara Horizontal)
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 24.dp)
+                .padding(top = 48.dp, bottom = 24.dp)
+        ) {
