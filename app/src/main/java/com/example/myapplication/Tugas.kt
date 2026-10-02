@@ -179,3 +179,11 @@ private fun ProfileImageSection() {
             .clip(CircleShape)
             .border(width = 3.dp, color = Color.White.copy(alpha = 0.8f), shape = CircleShape)
     ) {
+        Image(
+            painter = painterResource(id = R.drawable.spiderman), // Ganti dengan resource gambar Mekkah/Ka'bah
+            contentDescription = "Foto Profil Lingkaran",
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+    }
+}
