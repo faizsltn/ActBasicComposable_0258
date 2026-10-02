@@ -104,3 +104,13 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                     Text(text = "Col1 Row1 Komponen2")
                     Text(text = "Col1 Row1 Komponen3")
                 }
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Col1 Row2 Komponen1")
+                    Text(text = "Col1 Row2 Komponen2")
+                    Text(text = "Col1 Row2 Komponen3")
+                }
+            }
+        }
