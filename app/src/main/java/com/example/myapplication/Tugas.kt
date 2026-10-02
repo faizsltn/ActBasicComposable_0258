@@ -121,3 +121,24 @@ private fun LogoSection() {
         contentScale = ContentScale.Fit
     )
 }
+
+/**
+ * Komponen Informasi Identitas (Nama & NIM).
+ */
+@Composable
+private fun IdentitySection(
+    label: String,
+    nama: String,
+    nim: String
+) {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = Modifier.fillMaxWidth()
+    ) {
+        // Label "Nama"
+        Text(
+            text = label,
+            fontSize = 16.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color(0xFFCC0000) // Warna Merah Tegas
+        )
