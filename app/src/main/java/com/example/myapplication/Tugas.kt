@@ -39,3 +39,10 @@ fun HalamanTugas(
         modifier = modifier.fillMaxSize(),
         contentAlignment = Alignment.TopCenter
     ) {
+        // 1. Gambar Background Full Screen
+        Image(
+            painter = painterResource(id = R.drawable.gedung), // Ganti dengan resource background bangunan/arsitektur
+            contentDescription = "Background Halaman Login",
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
