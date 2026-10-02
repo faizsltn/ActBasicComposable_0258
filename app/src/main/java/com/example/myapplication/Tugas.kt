@@ -79,3 +79,31 @@ fun HalamanTugas(
         }
     }
 }
+
+/**
+ * Komponen Header (Judul "Login" dan Subjudul).
+ */
+@Composable
+private fun HeaderSection() {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = "Login",
+            fontSize = 32.sp,
+            fontWeight = FontWeight.ExtraBold,
+            color = Color(0xFF0033CC), // Warna Biru Tegas
+            textAlign = TextAlign.Center
+        )
+
+        Spacer(modifier = Modifier.height(4.dp))
+
+        Text(
+            text = "Ini adalah halaman login,",
+            fontSize = 15.sp,
+            fontWeight = FontWeight.Normal,
+            color = Color.White,
+            textAlign = TextAlign.Center
+        )
+    }
+}
