@@ -187,3 +187,14 @@ private fun ProfileImageSection() {
         )
     }
 }
+
+/**
+ * Preview Composable untuk melihat tampilan langsung di Android Studio.
+ */
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun HalamanTugasPreview() {
+    MyApplicationTheme {
+        HalamanTugas()
+    }
+}
