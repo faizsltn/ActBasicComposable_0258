@@ -124,3 +124,8 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                 .background(color = Color.Cyan),
             contentAlignment = Alignment.Center
         ) {
+            Image(
+                painter = painterResource(id = R.drawable.spiderman),
+                contentDescription = null,
+                contentScale = ContentScale.FillBounds
+            )
