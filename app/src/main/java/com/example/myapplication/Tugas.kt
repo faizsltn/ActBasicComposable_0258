@@ -142,3 +142,14 @@ private fun IdentitySection(
             fontWeight = FontWeight.Bold,
             color = Color(0xFFCC0000) // Warna Merah Tegas
         )
+
+        Spacer(modifier = Modifier.height(4.dp))
+
+        // Value Nama Mahasiswa
+        Text(
+            text = nama,
+            fontSize = 18.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color(0xFF0033CC), // Warna Biru
+            textAlign = TextAlign.Center
+        )
